@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STUDENT HUB</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href ="#about">About</a>
+            <a href ="#timetable">TimeTable</a>
+            <a href ="#Gallery">Gallery</a>
+            <a href ="#Contact">Contact</a>
+        </nav>
+    </header>
+    <section id ="about">
+        <h2>About Me</h2>
+        <p>Heyyy I'm learning Web Dev,
+            This is my first html project!!
+        </p>
+        <img src ="sunset.jpg", weight = 300, height = 300 ,alt = "blank picture">
+    </section>
+    <section>
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>Communication</li>
+            <li>Problem solving</li>
+            <li>SQL</li>
+        </ul>
+    </section>
+    <section id ="timetable">
+        <h2>Weekly TimeTable</h2>
+        <table border="2">
+            <tr>
+                <th>Day</th>
+                <th>Subject</th>
+            </tr>
+            <tr>
+                <th>Monday</th>
+                <th>HTML</th>
+            </tr>
+            <tr>
+                <th>Tuesday</th>
+                <th>CSS</th>
+            </tr>
+            <tr>
+                <th>Wednesday</th>
+                <th>SQL</th>
+            </tr>
+            <tr>
+                <th>Thursday</th>
+                <th>DSA</th>
+            </tr>
+            <tr>
+                <th>Friday</th>
+                <th>Aptitude</th>
+            </tr>
+        </table>
+    </section>
+    <section>
+        <h2>Useful Resources</h2>
+        <ol>
+            <li>
+                <a href ="https://developer.mozilla.org" target = "_blank">
+                    MDN Docs
+                </a>
+            </li>
+            <li>
+                <a href ="https://www.w3schools.com" target = "_blank">
+                    W3 Schools
+                </a>
+            </li>
+        </ol>
+    </section>
+    <section id = "Gallery">
+        <h2>Gallery</h2>
+        <img src = "wellness.jpg", weight = 300 , height = 300 , alt = "Health">
+        <img src = "yoga.jpg", weight = 300 , height = 300 , alt = "Yoga">
+    </section>
+    <section>
+        <h2>Media</h2>
+        <audio controls>
+            <source src = "" type = "audio/mpeg">
+        </audio>
+        <video width = "300" controls>
+            <source src = "" type = "video/mp4">
+        </video>
+    </section>
+    <section id = "Contact">
+        <h2>Student Registration</h2>
+        <form>
+            <label>Name:</label>
+            <input type = "text"><br><br>
+            <label>Email:</label>
+            <input type = "email"><br><br>
+            <label>Password:</label>
+            <input type = "password"><br><br>
+            <label>Gender:</label>
+            <input type = "radio" name = "Gender">MALE
+            <input type = "radio" name = "Gender">FEMALE
+            <BR><BR>
+            <label>Skills</label>
+            <input type = "checkbox">HTML
+            <input type = "checkbox">CSS
+            <input type = "checkbox">SQL
+            <br><br>
+            <label>Choose Course:</label>
+            <select>
+                <option>Frontend</option>
+                <option>Backend</option>
+            </select>
+            <br><br>
+            <textarea placeholder = "Feedback"></textarea>
+            <br><br>
+            <button type = "submit">Submit</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; Student Hub 2026</p>
+    </footer>
+    <section>
+        <h2>Mosst useful video</h2>
+        <iframe width = "400" height = "250"
+            src = "https://www.youtube.com/embed/dQw4w9WgXcQ">
+        </iframe>
+    </section>
+</body>
+</html>
